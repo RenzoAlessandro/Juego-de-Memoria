@@ -1,4 +1,4 @@
-#Juego de Memoria Memorama
+# Juego de Memoria - Memorama en Android Studio
 
 ## Instalación
 Clonar este repositorio e importarlo a **Android Studio**
@@ -20,10 +20,18 @@ Docente:
 
 ## Screenshots
 ### Menu
-![Imagen de entrada](https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/Menu.png)
+
+<img src="https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/Menu.png" width="30%">
+
 ### Primer Nivel
-![Imagen de entrada](https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/PrimerNivel.png)
+
+<img src="https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/PrimerNivel.png" width="30%">
+
 ### Segundo Nivel
-![Imagen de entrada](https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/SegundoNivel.png)
+
+<img src="https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/SegundoNivel.png" width="30%">
+
 ### Ganó 
-![Imagen de entrada](https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/Gano.png)
+
+<img src="https://github.com/RenzoAlessandro/Juego-de-Memoria/blob/master/screenshot/Gano.png" width="30%">
+
