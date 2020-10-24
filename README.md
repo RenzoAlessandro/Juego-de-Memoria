@@ -1,4 +1,4 @@
-# Juego de Memoria - Memorama
+#Juego de Memoria Memorama
 
 ## Instalación
 Clonar este repositorio e importarlo a **Android Studio**
@@ -6,6 +6,7 @@ Clonar este repositorio e importarlo a **Android Studio**
 ## Creditos 
 Este proyecto es programado por:
 * [Renzo Sucari](https://github.com/RenzoAlessandro)
+
 Docente: 
 * [Kelly Vizconde La Motta]
 
