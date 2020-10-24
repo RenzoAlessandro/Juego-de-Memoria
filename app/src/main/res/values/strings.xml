@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Memorama</string>
+
+    <string name="bt_jugar">JUGAR</string>
+    <string name="txt_indicaciones">INDICACIONES: \n
+        - El juego consta de dos niveles. \n
+        - El score es entre 0 a 250.\n
+        - Primer nivel de 0 a 100 de score. \n
+        - Segundo nivel de 100 a 250. \n
+        - Llega a 250 y ganas.</string>
+
+    <string name="txt_creditos">Programación en Dispositivos Móviles \n
+        Alumno: Renzo Alessandro Sucari Velasquez \n
+        Docente: Kelly Visconde La Motta \n</string>
+
+    <string name="txt_score">Tu Score:</string>
+    <string name="txt_nivel">Nivel:</string>
+    <string name="txt_vacio">000</string>
+
+    <string name="bt_atras">ATRAS</string>
+    <string name="bt_siguiente_nivel">SIGUIENTE</string>
+    <string name="bt_salir">SALIR</string>
+    <string name="bt_ir_menu">IR AL MENU</string>
+
+
+</resources>

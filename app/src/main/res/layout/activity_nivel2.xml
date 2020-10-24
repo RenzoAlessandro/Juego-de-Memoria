@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Nivel2">
+
+    <ImageButton
+        android:id="@+id/imageButtonNN4"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="ClickImg44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonNN2"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNN3"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:onClick="ClickImg33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonNN1"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNN1"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="130dp"
+        android:onClick="ClickImg11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNN2"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="ClickImg22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNN5"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:onClick="ClickImg55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonNN3"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNN6"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="ClickImg66"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonNN4"
+        app:srcCompat="@mipmap/imagen0" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#F2B059"
+        android:hint="@string/bt_atras"
+        android:onClick="Anterior"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/txt_score"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewScoreN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/txt_vacio"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNivelN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txt_vacio"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txt_nivel"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#EB3375"
+        android:hint="@string/bt_ir_menu"
+        android:onClick="IrMenu"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
